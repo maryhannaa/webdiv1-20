@@ -7,11 +7,11 @@ body {
     overflow: hidden;
     position: absolute;
     top: calc(50% - 17px);
-    left: calc(50% - 40px);
+    left: calc(50% - 35px);
   }
   #waiting {
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     border-style: solid;
     border-top-color: rgb(219, 233, 27);
     border-right-color: rgb(238, 116, 116);
