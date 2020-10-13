@@ -1,0 +1,85 @@
+
+ body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  background: blue;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: ‘Arial Narrow’;
+  font-weight: 100;
+  font-size: 1.8em;
+  color: #a3e1f0;
+}
+
+span {
+  position: relative;
+  top: 0.63em;  
+  display: inline-block;
+  text-transform: uppercase;  
+  opacity: 0;
+  transform: rotateX(90deg);
+}
+
+.let1 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+.let2 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+.let3 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+.let4 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.2s;
+
+}
+
+.let5 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+.let6 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+.let7 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+@keyframes drop {
+    
+    20% {
+        opacity: 4;
+        top: 3em;
+        transform: rotateX(1deg);
+    }
+    80% {
+        opacity: 0;
+        top: 3em;
+        transform: rotateX(79deg);
+    }
+   
+    100% {
+        opacity: 4;
+        top: 6em
+    }
+}
+
+  
