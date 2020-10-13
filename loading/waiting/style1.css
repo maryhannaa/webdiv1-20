@@ -1,9 +1,12 @@
 body {
     background: rgb(55, 158, 119);
   }
+  
+
+
   #container {
-    width: 70px;
-    height: 35px;
+    width: 80px;
+    height: 40px;
     overflow: hidden;
     position: absolute;
     top: calc(50% - 17px);
@@ -17,7 +20,7 @@ body {
     border-right-color: rgb(238, 116, 116);
     border-left-color: transparent;
     border-bottom-color: transparent;
-    border-radius: 50%;
+    border-radius: 80%;
     box-sizing: border-box;
     animation: rotate 6s ease-in-out infinite;
     transform: rotate(-900deg);
@@ -25,6 +28,7 @@ body {
 
 
   }
+  
   @keyframes rotate {
     0% { border-width: 3px; }
     25% { border-width: 6px; }
