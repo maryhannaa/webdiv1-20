@@ -1,0 +1,10 @@
+.page p::after { 
+    content: " - Remember this";
+    color: blue;
+  }
+
+  .page1 p::before {
+    content: "Read this -";
+color: rgb(18, 126, 23);
+    
+  }

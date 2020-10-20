@@ -1,0 +1,22 @@
+body {
+    align-items: center;
+    background: radial-gradient( farthest-side at bottom left, rgb(10, 10, 10), rgb(167, 117, 117)), 
+    radial-gradient( farthest-corner at bottom right, rgb(5, 5, 5), #ccc 400px);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    line-height: 1.5;
+  }
+  .element {
+    background-color: rgb(247, 243, 243);
+    box-shadow: 1px 1px 10px rgb(19, 18, 18);
+    padding: 2em;
+    width: 200px;
+  }
+  .element p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }

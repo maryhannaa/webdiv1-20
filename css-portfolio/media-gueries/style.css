@@ -1,0 +1,10 @@
+
+body {
+    background-color: pink;
+  }
+  
+  @media screen and (min-width: 470px) {
+    body {
+      background-color: lightgreen;
+    }
+  }

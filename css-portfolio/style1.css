@@ -1,0 +1,18 @@
+
+h1{
+  width: 900px;
+    color: rgb(69, 218, 94);
+}
+
+img{
+    max-width: 100px;
+}
+a{
+    max-width: 700px;
+    
+    padding: 14px;
+}
+body{
+    justify-content: space-around;
+    background-color: black;
+}
