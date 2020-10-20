@@ -8,3 +8,8 @@ body {
       background-color: lightgreen;
     }
   }
+
+  a{
+      justify-content: space-between;
+      justify-content: space-around;
+  }
