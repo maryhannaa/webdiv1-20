@@ -1,5 +1,7 @@
 .serif {
-    font-family: "Times New Roman", Times, serif, Roboto slab, ;
+    
+    font-family: 'Grandstander', cursive;
+
   }
   
   .sansserif {
@@ -8,4 +10,6 @@
   
   .monospace {
     font-family: "Lucida Console", Courier, monospace;
+    font-family: 'Grandstander', cursive;
+
   }
