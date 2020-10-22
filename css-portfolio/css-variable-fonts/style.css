@@ -5,18 +5,18 @@
 }
 
 
-
 .serif {
-    
-    font-family: 'Grandstander', cursive;
 
-  }
-  
-  .sansserif {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .monospace {
-    font-family: 'Grandstander', cursive;
+  font-family: 'Grandstander', cursive;
 
-  }
+}
+
+.font{
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.bold{
+  font-family: 'Merriweather Sans', sans-serif;
+
+}
