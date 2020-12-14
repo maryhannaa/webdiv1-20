@@ -74,8 +74,7 @@ body, html {
   .space {
       padding: 20px;
   }
-  /* Social Links
-  ---------------------------------- */
+ 
   .social-links {
       padding: 0;
       list-style: none;
@@ -118,7 +117,7 @@ body, html {
   .social-links li.pinterest a:hover {
       color: #cb2027;
   }
-    /*Form css*/
+  
   .form-control {
       height: 45px;
       -webkit-border-radius: 0px;
@@ -134,7 +133,7 @@ body, html {
   textarea {
       resize: vertical;
   }
-  /*Button css*/
+  
   .btn {
       padding: 8px 15px;
       font-size: 14px;
