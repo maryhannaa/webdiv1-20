@@ -7,6 +7,7 @@ body, html {
   .navbar {
     border-radius:0px;
     margin-bottom: 0px;
+    background-color: #164f5a;
   }
   .navbar-brand , ul.nav{
     font-family: Ubuntu;
